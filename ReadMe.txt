@@ -1,4 +1,6 @@
 
+# Github link - https://github.com/mschwarzmueller/nextjs-complete-guide-course-resources/tree/main
+
 # use of 'layout.js' file - the idea behind 'layout.js' in NextJs is that they act as wrapper around pages.
 
 # If we had a nested layout then that layout would indeed become active for those meals-related pages but it would be itself nested into the root layout.
@@ -8,3 +10,10 @@
 ==> <img src={logoImg.src} alt="" />
 
 # In NextJs projects we should import image using src property because the imported logo will be an object where the path to the image is then stored under `src` property.
+
+# In NextJs, we have special- buit-in image component which exist to help us output images in a more optimized way.
+# For example - By lazy loading images under the hood so that they're only displayed if they're really visible on the page.
+
+# With `Image` component we can also use `priority` attribute that will load image on priority.
+
+# 
