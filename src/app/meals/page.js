@@ -7,6 +7,7 @@ export default async function MealsPage(){
     // console.log('Executing meals page...');
 
     const meals = await getMeals();
+    // console.log(meals);
     return (
       <>
         <header className={classes.header}>
